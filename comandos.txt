@@ -1,0 +1,7 @@
+Comandos utilizados:
+
+sail up -d
+sail artisan make:model -mrc Manzana
+sail artisan migrate
+sail npm run dev
+sail artisan make:middleware LogMiddleware
