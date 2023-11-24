@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
+    <div class="py-12 container mx-auto">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
@@ -13,6 +13,6 @@
                 </div>
             </div>
         </div>
-        <a href="{{route('manzana.index')}}">Insertar</a>
+        <a class="px-5 py-2 mt-10 inline-block font-bold text-white text-lg bg-black hover:bg-orange-500 transition-colors" href="{{route('manzana.index')}}">Manzanas</a>
     </div>
 </x-app-layout>
